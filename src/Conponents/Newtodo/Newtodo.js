@@ -16,6 +16,7 @@ class Newtodo extends React.Component {
 
     this.setState({
       currentUserName: value,
+      errorUser: false,
     });
   };
 
@@ -24,6 +25,7 @@ class Newtodo extends React.Component {
 
     this.setState({
       newTodoTitle: value,
+      errorTitle: false,
     });
   };
 
